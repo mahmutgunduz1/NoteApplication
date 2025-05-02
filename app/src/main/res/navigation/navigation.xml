@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/noteSayfasi">
+    <fragment
+        android:id="@+id/noteSayfasi"
+        android:name="com.example.noteapp.fragment.NoteFragment"
+        android:label="fragment_note"
+
+        tools:layout="@layout/fragment_note" />
+    <fragment
+        android:id="@+id/yapilacaklarSayfasi"
+        android:name="com.example.noteapp.fragment.ThingsToDoFragment"
+        android:label="fragment_things_to_do"
+        tools:layout="@layout/fragment_things_to_do" />
+</navigation>
